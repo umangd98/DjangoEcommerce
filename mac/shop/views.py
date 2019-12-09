@@ -6,7 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from PayTm import Checksum
 import json
 # Create your views here.
-MERCHANT_KEY = 'PfIrXAopTv1pFKgv'
+MERCHANT_KEY = '**********'
 
 def searchMatch(query, item):
     if query in item.desc.lower() or query in item.product_name.lower() or query in item.category.lower():
